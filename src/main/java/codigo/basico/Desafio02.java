@@ -24,5 +24,7 @@ public class Desafio02 {
         for (String ativo : ativos) {
             System.out.println(ativo);
         }
+
+        scanner.close();
     }
 }

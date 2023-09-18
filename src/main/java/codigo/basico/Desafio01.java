@@ -18,5 +18,7 @@ public class Desafio01 {
         double novoSaldo = saldoAtual + (valorDeposito - valorRetirada);
 
         System.out.printf("Saldo atualizado na conta: %.1f\n", novoSaldo);
+
+        scanner.close();
     }
 }
