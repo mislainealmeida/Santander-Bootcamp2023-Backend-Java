@@ -20,7 +20,6 @@ public class Desafio04 {
         double valorFinal = calcularJurosCompostos(valorInicial, taxaJuros, periodo);
 
         System.out.println("Valor final do investimento: R$ " + df.format(valorFinal));
-
         scanner.close();
     }
 

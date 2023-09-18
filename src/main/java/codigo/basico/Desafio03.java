@@ -18,7 +18,6 @@ public class Desafio03 {
         } else{
             System.out.println("Saldo insuficiente. Saque nao realizado!");
         }
-
         scanner.close();
     }
 }
