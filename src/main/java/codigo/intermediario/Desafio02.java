@@ -22,8 +22,10 @@ public class Desafio02 {
         ContaPoupanca contaPoupanca = new ContaPoupanca(numeroConta, titular, saldo, taxaJuros);
         System.out.println("Conta Poupanca:");
         contaPoupanca.exibirInformacoes();
+        scanner.close();
     }
 }
+
 
 class ContaBancaria2 {
     protected int numero;
@@ -41,7 +43,7 @@ class ContaBancaria2 {
         System.out.println(titular);
         System.out.println(numero);
         System.out.println("Saldo: R$ " + decimalFormat.format(saldo));
-        
+
     }
 }
 

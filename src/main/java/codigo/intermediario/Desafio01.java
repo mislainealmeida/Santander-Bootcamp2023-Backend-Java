@@ -18,7 +18,7 @@ public class Desafio01 {
         System.out.println("Informacoes:");
         System.out.println(conta);
 
-
+        scanner.close();
     }
 }
 
